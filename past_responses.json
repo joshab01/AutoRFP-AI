@@ -1,0 +1,352 @@
+[
+  {
+    "question": "What security certifications does Acme Cloud Platform hold, and how often are they audited?",
+    "answer": "Acme Cloud Platform is SOC 2 Type II certified and ISO 27001 compliant. We undergo rigorous third-party audits annually to assess our controls and processes, ensuring continuous adherence to industry standards. This commitment to security not only safeguards customer data but also demonstrates our dedication to maintaining the highest levels of operational integrity.",
+    "category": "Security & Compliance",
+    "id": "QA-001",
+    "hash": "846bafcd"
+  },
+  {
+    "question": "Can you elaborate on the encryption standards used for data at rest and in transit?",
+    "answer": "At Acme Cloud Platform, we utilize AES-256 encryption for data at rest, ensuring robust protection against unauthorized access. For data in transit, we implement TLS 1.2 or higher, which safeguards information during transmission. This dual-layer encryption strategy guarantees comprehensive security throughout the data lifecycle.",
+    "category": "Security & Compliance",
+    "id": "QA-002",
+    "hash": "fd9030a5"
+  },
+  {
+    "question": "What access control measures are in place to protect sensitive customer data?",
+    "answer": "Acme Cloud Platform employs role-based access control (RBAC) and multi-factor authentication (MFA) to enforce strict access policies. Each user is granted permissions based on their role, minimizing the risk of unauthorized access. Additionally, all access attempts are logged and monitored for suspicious activity, ensuring transparency and accountability.",
+    "category": "Security & Compliance",
+    "id": "QA-003",
+    "hash": "7271d1fd"
+  },
+  {
+    "question": "How does Acme Cloud Platform manage vulnerabilities and ensure timely remediation?",
+    "answer": "We maintain a comprehensive vulnerability management program, which includes regular internal and external scans using tools like Nessus and Qualys. Identified vulnerabilities are prioritized based on severity and impact, with an average response time of 48 hours for critical issues. This proactive approach ensures that our systems remain secure against emerging threats.",
+    "category": "Security & Compliance",
+    "id": "QA-004",
+    "hash": "785eff1a"
+  },
+  {
+    "question": "What measures does Acme Cloud Platform take to ensure compliance with regulations such as GDPR and HIPAA?",
+    "answer": "Acme Cloud Platform is fully committed to compliance with GDPR and HIPAA regulations. Our data handling practices comply with the principles of data minimization and purpose limitation, ensuring that customer data is collected, processed, and stored responsibly. We also provide tools for data subject requests and maintain comprehensive documentation to facilitate audits.",
+    "category": "Security & Compliance",
+    "id": "QA-005",
+    "hash": "24209c4c"
+  },
+  {
+    "question": "What incident response capabilities does Acme Cloud Platform have in place?",
+    "answer": "Acme Cloud Platform has a dedicated incident response team that operates 24/7. We follow a predefined incident response plan that includes identification, containment, eradication, and recovery phases. Our average time to containment for critical incidents is less than 2 hours, ensuring minimal impact on our customers' operations.",
+    "category": "Security & Compliance",
+    "id": "QA-006",
+    "hash": "b7657484"
+  },
+  {
+    "question": "How does Acme Cloud Platform handle third-party vendor risk management?",
+    "answer": "We conduct thorough due diligence on all third-party vendors, including security assessments and compliance checks. Vendors undergo regular evaluations and must adhere to our security policies, including data protection measures and incident reporting requirements. This ensures that all partners meet our high standards for safeguarding customer data.",
+    "category": "Security & Compliance",
+    "id": "QA-007",
+    "hash": "202a595c"
+  },
+  {
+    "question": "Can you discuss your data retention and deletion policies?",
+    "answer": "Acme Cloud Platform maintains a clear data retention policy that aligns with industry standards and customer agreements. We retain customer data only as long as necessary, typically no longer than 7 years, after which it is securely deleted using NIST 800-88 guidelines. Customers can also request data deletion at any time, ensuring compliance with their data governance policies.",
+    "category": "Security & Compliance",
+    "id": "QA-008",
+    "hash": "982b4689"
+  },
+  {
+    "question": "What training and awareness programs does Acme Cloud Platform provide to its employees regarding security?",
+    "answer": "All employees at Acme Cloud Platform undergo mandatory security awareness training upon onboarding and annually thereafter. This training covers topics such as phishing, data protection, and incident response procedures. We also conduct regular simulated phishing attacks to reinforce best practices, ensuring a culture of security awareness throughout the organization.",
+    "category": "Security & Compliance",
+    "id": "QA-009",
+    "hash": "e6c9789b"
+  },
+  {
+    "question": "What monitoring and logging capabilities does Acme Cloud Platform provide for security events?",
+    "answer": "Acme Cloud Platform utilizes a Security Information and Event Management (SIEM) solution to monitor and log security events in real-time. Our monitoring systems are configured to detect anomalies and generate alerts for potential threats. Logs are retained for a minimum of 12 months, allowing for comprehensive audits and forensic investigations when necessary.",
+    "category": "Security & Compliance",
+    "id": "QA-010",
+    "hash": "00a4c3c3"
+  },
+  {
+    "question": "Can you provide an overview of your system architecture, including the technologies used and how they contribute to overall performance?",
+    "answer": "Acme Cloud Platform employs a microservices architecture built on Kubernetes, allowing for independent scaling of services based on demand. Our application leverages React for the frontend, while backend services utilize Node.js and Python for robust data processing. This combination enhances performance and contributes to a responsive user experience. Additionally, we utilize PostgreSQL for relational data storage, and Redis for caching, ensuring high availability and reduced latency.",
+    "category": "Technical Architecture",
+    "id": "QA-011",
+    "hash": "43f0ed52"
+  },
+  {
+    "question": "What measures are in place to ensure system scalability as our user base grows?",
+    "answer": "Scalability is a core feature of Acme Cloud Platform. We utilize container orchestration with Kubernetes to automatically scale services based on traffic and load. Our system can handle up to 10,000 concurrent users per instance, and we can dynamically provision additional instances as needed. For data storage, we implement sharding techniques in our PostgreSQL database, which allows us to manage large datasets efficiently without performance degradation.",
+    "category": "Technical Architecture",
+    "id": "QA-012",
+    "hash": "f234133a"
+  },
+  {
+    "question": "What is your guaranteed uptime, and how do you ensure service reliability?",
+    "answer": "Acme Cloud Platform guarantees 99.95% uptime as part of our Service Level Agreement (SLA). To achieve this, we implement redundancy across all critical components, including load balancers and database clusters. Our monitoring tools alert us to outages in real-time, and we conduct quarterly disaster recovery drills to ensure we can recover swiftly from any unforeseen incidents.",
+    "category": "Technical Architecture",
+    "id": "QA-013",
+    "hash": "3b288e9b"
+  },
+  {
+    "question": "How do you handle integrations with third-party applications? What APIs do you offer?",
+    "answer": "Acme Cloud Platform offers a robust suite of RESTful APIs that enable seamless integrations with third-party applications. Our APIs support JSON and XML formats and are fully documented in our developer portal. We offer integrations with popular platforms such as Salesforce, Slack, and Google Workspace, facilitating data exchange and workflow automation. Furthermore, we provide Webhooks to notify users of real-time events and changes.",
+    "category": "Technical Architecture",
+    "id": "QA-014",
+    "hash": "8cc09b22"
+  },
+  {
+    "question": "Can you describe your data flow architecture, specifically regarding data ingestion and processing?",
+    "answer": "Our data flow architecture at Acme Cloud Platform is designed for efficiency and scalability. Data ingestion occurs through batch uploads and real-time streaming using Apache Kafka. Once ingested, data is processed through our ETL (Extract, Transform, Load) pipeline, which utilizes Apache Spark for large-scale data processing. This architecture allows us to handle and analyze millions of records per minute while maintaining data integrity and accuracy.",
+    "category": "Technical Architecture",
+    "id": "QA-015",
+    "hash": "c0e25a77"
+  },
+  {
+    "question": "What security measures are implemented in your architecture to protect data in transit and at rest?",
+    "answer": "Acme Cloud Platform employs industry-leading security measures to protect data both in transit and at rest. We use AES-256 encryption for data at rest and TLS 1.2 for data in transit, ensuring high levels of security during data transmission. Additionally, our architecture includes role-based access control (RBAC) and regular security audits to safeguard against unauthorized access and vulnerabilities.",
+    "category": "Technical Architecture",
+    "id": "QA-016",
+    "hash": "dd6f1972"
+  },
+  {
+    "question": "How does your platform handle data backups and disaster recovery?",
+    "answer": "Acme Cloud Platform performs automated daily backups of all data, stored in geographically redundant locations. Our disaster recovery plan ensures that we can restore services within 4 hours of an incident. We regularly test our backup and recovery process to validate its effectiveness, guaranteeing that no more than 24 hours of data is lost in the event of a failure.",
+    "category": "Technical Architecture",
+    "id": "QA-017",
+    "hash": "5d4938bb"
+  },
+  {
+    "question": "What load balancing techniques are utilized in your infrastructure to manage traffic effectively?",
+    "answer": "Acme Cloud Platform implements Layer 7 load balancing using NGINX, which intelligently routes user requests to the least loaded instances of our services. This not only optimizes resource utilization but also enhances user experience by reducing latency. Additionally, we utilize auto-scaling groups that dynamically add or remove instances based on traffic patterns, ensuring high availability during peak usage times.",
+    "category": "Technical Architecture",
+    "id": "QA-018",
+    "hash": "02d65a77"
+  },
+  {
+    "question": "Can you discuss your approach to API versioning and backward compatibility?",
+    "answer": "At Acme Cloud Platform, we follow a semantic versioning strategy for our APIs, ensuring backward compatibility whenever possible. Each API version is documented, and we provide detailed migration guides to assist users in transitioning to new versions. Our policy is to maintain support for at least two previous versions, giving our clients ample time to adapt to changes without disrupting their integrations.",
+    "category": "Technical Architecture",
+    "id": "QA-019",
+    "hash": "366f1f23"
+  },
+  {
+    "question": "What monitoring and performance optimization tools do you use to maintain system health?",
+    "answer": "Acme Cloud Platform employs a combination of Prometheus for metrics collection and Grafana for visualization to monitor system health and performance. We track key performance indicators such as response times, error rates, and resource utilization. Additionally, we conduct regular performance assessments and use automated scaling rules to optimize resource allocation based on real-time demand, ensuring consistent performance for our users.",
+    "category": "Technical Architecture",
+    "id": "QA-020",
+    "hash": "8459b130"
+  },
+  {
+    "question": "What measures does Acme Cloud Platform have in place to ensure compliance with GDPR regulations, particularly in relation to data subject rights?",
+    "answer": "Acme Cloud Platform is fully compliant with GDPR regulations, ensuring that data subjects can exercise their rights effectively. We provide tools for users to access, rectify, and erase their personal data, as outlined in Article 15-22 of the GDPR. Our platform offers a dedicated Data Subject Request (DSR) feature that facilitates these processes within a 30-day response window. Additionally, we conduct annual GDPR training for our staff and have appointed a Data Protection Officer (DPO) to oversee compliance efforts.",
+    "category": "Data Privacy & Governance",
+    "id": "QA-021",
+    "hash": "589ab3a1"
+  },
+  {
+    "question": "Can you outline your policies regarding data residency and how they apply to our organization\u2019s data?",
+    "answer": "Acme Cloud Platform provides flexible data residency options. Our data centers are located in the EU, US, and APAC regions, allowing clients to choose where their data is stored based on compliance needs. For organizations subject to data localization laws, we offer a Data Residency feature that ensures data is stored exclusively in the selected geographic region. Our clients can be assured that their data complies with local regulations, supported by our ISO 27001 certification.",
+    "category": "Data Privacy & Governance",
+    "id": "QA-022",
+    "hash": "dcf70077"
+  },
+  {
+    "question": "How does Acme Cloud Platform handle data retention and deletion policies in accordance with CCPA?",
+    "answer": "Acme Cloud Platform adheres to the CCPA's data retention and deletion requirements by implementing a retention policy that limits the storage of personal information to the minimum duration necessary. We have established specific retention schedules based on the type of data collected and the purpose for which it is processed. Upon request, users can initiate data deletion via our user interface, which guarantees completion within 45 days, compliant with CCPA. Our audit logs also track all deletion requests for transparency.",
+    "category": "Data Privacy & Governance",
+    "id": "QA-023",
+    "hash": "d7edc9b7"
+  },
+  {
+    "question": "What contractual terms do you offer in your Data Processing Agreement (DPA) to ensure compliance with data protection laws?",
+    "answer": "Acme Cloud Platform's Data Processing Agreement (DPA) incorporates standard contractual clauses (SCCs) to align with GDPR and CCPA requirements. The DPA outlines data processing roles, the nature and purpose of processing, and the rights and obligations of both parties. Key provisions include data security measures, breach notification timelines (within 72 hours), and sub-processor conditions. Our DPA is readily available for review, ensuring full transparency and compliance with relevant data protection laws.",
+    "category": "Data Privacy & Governance",
+    "id": "QA-024",
+    "hash": "a796dd5b"
+  },
+  {
+    "question": "Can you explain how Acme Cloud Platform ensures the security of personal data during processing and storage?",
+    "answer": "Acme Cloud Platform employs robust security measures to protect personal data throughout its lifecycle. Our infrastructure is secured with AES-256 encryption for data at rest and in transit. We conduct regular security assessments and have implemented multi-factor authentication (MFA) for access controls. Our platform also undergoes third-party penetration testing and vulnerability assessments bi-annually. Additionally, our 99.95% uptime SLA guarantees high availability, ensuring that data accessibility does not compromise security.",
+    "category": "Data Privacy & Governance",
+    "id": "QA-025",
+    "hash": "02421899"
+  },
+  {
+    "question": "What processes are in place for notifying clients in the event of a data breach?",
+    "answer": "In the event of a data breach, Acme Cloud Platform follows a comprehensive incident response plan that ensures timely notification to affected clients. Our internal protocol mandates that clients are informed within 72 hours of identifying a breach, along with detailed information regarding the nature of the breach, the data impacted, and the remediation steps taken. We also provide regular updates through our secure communication channels until the incident is resolved, reflecting our commitment to transparency and accountability.",
+    "category": "Data Privacy & Governance",
+    "id": "QA-026",
+    "hash": "413a24e1"
+  },
+  {
+    "question": "How are employee access and permissions managed to protect sensitive data within the Acme Cloud Platform?",
+    "answer": "Access to sensitive data within Acme Cloud Platform is managed through a role-based access control (RBAC) system that ensures only authorized personnel have access. Each role is defined based on the principle of least privilege, and access rights are reviewed quarterly. All access attempts are logged, enabling real-time monitoring and auditing. Additionally, we train employees on data privacy best practices and conduct bi-annual security awareness sessions to further ensure our team is vigilant in protecting client data.",
+    "category": "Data Privacy & Governance",
+    "id": "QA-027",
+    "hash": "229dc904"
+  },
+  {
+    "question": "What support does Acme Cloud Platform offer in facilitating compliance audits related to data privacy?",
+    "answer": "Acme Cloud Platform provides comprehensive support for compliance audits related to data privacy, including access to documentation and records that demonstrate adherence to GDPR and CCPA requirements. We offer clients a dedicated compliance liaison to assist with audit requests, facilitate documentation sharing, and address any inquiries. Additionally, we conduct regular internal audits and maintain a suite of compliance certifications, such as ISO 27001, which clients can reference during external audit processes for added assurance.",
+    "category": "Data Privacy & Governance",
+    "id": "QA-028",
+    "hash": "2159a223"
+  },
+  {
+    "question": "What is the typical timeline for deploying the Acme Cloud Platform after signing the contract, and what factors could influence this timeline?",
+    "answer": "The typical deployment timeline for the Acme Cloud Platform is between 4 to 8 weeks, depending on the complexity of your existing systems and data. Factors that could influence this timeline include the volume of data to be migrated, the readiness of your team for onboarding, and the specific customization requirements of your analytics workflows. We prioritize transparent communication and will work closely with your team to establish a detailed project plan to ensure timely delivery.",
+    "category": "Implementation & Onboarding",
+    "id": "QA-029",
+    "hash": "ba19bc82"
+  },
+  {
+    "question": "Can you elaborate on your data migration process and any tools or methodologies utilized to ensure data integrity during this phase?",
+    "answer": "At Acme Cloud Platform, our data migration process leverages our proprietary DataBridge Tool, which includes automated data validation checks to ensure integrity and accuracy. We follow a phased approach: initial assessment, data mapping, migration, testing, and final validation. We conduct rigorous testing pre- and post-migration to ensure that your data maintains its integrity and is fully operational in the new environment. Our team also provides assistance throughout this process to mitigate risks and disruptions.",
+    "category": "Implementation & Onboarding",
+    "id": "QA-030",
+    "hash": "f07a0542"
+  },
+  {
+    "question": "What types of training do you provide for our team during the onboarding process, and how are they delivered?",
+    "answer": "Acme Cloud Platform offers comprehensive training programs tailored to your organization's needs. We provide interactive webinars, on-demand video tutorials, and live hands-on workshops led by our expert trainers. Training covers essential features, advanced analytics capabilities, and best practices for workflow automation. Our goal is to ensure your team feels confident and equipped to leverage our platform effectively. We also provide a dedicated training portal and resource repository for ongoing reference.",
+    "category": "Implementation & Onboarding",
+    "id": "QA-031",
+    "hash": "7e160633"
+  },
+  {
+    "question": "What support options are available during the rollout phase, and how can we contact your support team if issues arise?",
+    "answer": "During the rollout phase, Acme Cloud Platform provides dedicated support through multiple channels. You will have access to a project manager and a technical support specialist who will assist with any immediate concerns. Our support team is available 24/7 via email, chat, and phone. We also offer a dedicated Slack channel for real-time troubleshooting and collaboration. Additionally, you will receive an escalation path for critical issues to ensure swift resolution.",
+    "category": "Implementation & Onboarding",
+    "id": "QA-032",
+    "hash": "dc9a69ae"
+  },
+  {
+    "question": "How do you ensure user adoption and minimize disruption during the migration to the Acme Cloud Platform?",
+    "answer": "To ensure user adoption and minimize disruption, we implement a structured change management strategy that includes stakeholder engagement, user training, and continuous communication. We start with a stakeholder assessment to identify concerns and tailor our approach. Regular updates via newsletters and meetings keep everyone informed. Our trainers also conduct sessions focused on user-specific workflows, ensuring that users can transition smoothly without significant downtime or disruption to business operations.",
+    "category": "Implementation & Onboarding",
+    "id": "QA-033",
+    "hash": "491a75fb"
+  },
+  {
+    "question": "What is your process for addressing and resolving any post-deployment issues that may arise?",
+    "answer": "Post-deployment, Acme Cloud Platform has a structured support process in place to address any issues promptly. We initiate a post-deployment review after the first month, where we gather feedback and assess system performance. Any issues identified are logged into our ticketing system, with SLA commitments of addressing critical issues within 4 hours and non-critical issues within 24 hours. We also conduct follow-up meetings to ensure all concerns are resolved and optimize system performance.",
+    "category": "Implementation & Onboarding",
+    "id": "QA-034",
+    "hash": "a9c0621a"
+  },
+  {
+    "question": "Can you specify the resources we will have access to during the onboarding process, including documentation and community support?",
+    "answer": "During the onboarding process with Acme Cloud Platform, you will gain access to an extensive array of resources. This includes our comprehensive user documentation, which covers all platform features, a dedicated onboarding site with step-by-step guides, and community forums for peer support. Our customer success team will also host bi-weekly Q&A sessions for direct engagement. Additionally, you will receive access to our knowledge base, which includes FAQs and troubleshooting tips, ensuring you have ample support.",
+    "category": "Implementation & Onboarding",
+    "id": "QA-035",
+    "hash": "77b88875"
+  },
+  {
+    "question": "What licensing models do you offer, and how do they align with our potential usage and scalability needs?",
+    "answer": "Acme Cloud Platform provides a tiered subscription model that includes Basic, Professional, and Enterprise plans. Each tier is designed to support specific usage levels, from small teams to large enterprises. The Basic plan is ideal for startups, offering core analytics features at $99 per month. The Professional plan, at $499 per month, includes advanced data integration and workflow automation capabilities for mid-sized businesses. The Enterprise plan is customizable based on your specific needs, providing an unlimited user license and dedicated support. We also offer a pay-as-you-go model for organizations with variable usage, ensuring you only pay for what you consume.",
+    "category": "Pricing & Commercial Terms",
+    "id": "QA-036",
+    "hash": "238c23f8"
+  },
+  {
+    "question": "Do you offer volume discounts for large-scale deployments, and if so, what are the thresholds for these discounts?",
+    "answer": "Yes, Acme Cloud Platform offers significant volume discounts based on the number of licenses purchased. For instance, organizations that purchase 50 or more licenses receive a 10% discount, while those acquiring 100 or more licenses benefit from a 20% discount on the total subscription cost. Additionally, we can work with your procurement team to tailor a pricing structure that meets your specific usage and financial requirements, ensuring maximum value for larger deployments.",
+    "category": "Pricing & Commercial Terms",
+    "id": "QA-037",
+    "hash": "3a83fed6"
+  },
+  {
+    "question": "Can you detail your contract flexibility options, including terms for upgrades or downgrades in service levels?",
+    "answer": "Acme Cloud Platform offers flexible contract options that allow you to upgrade or downgrade your service level with minimal friction. Customers can request changes to their subscription tier at any time during the contract period, with adjustments taking effect at the next billing cycle. Upgrading increases your capabilities immediately, while downgrading may result in adjusted pricing based on the new tier. Our standard contract term is one year, but we also provide options for shorter terms or month-to-month agreements to accommodate varying needs.",
+    "category": "Pricing & Commercial Terms",
+    "id": "QA-038",
+    "hash": "000505a0"
+  },
+  {
+    "question": "What are your standard payment terms, and do you offer any incentives for early payment?",
+    "answer": "Acme Cloud Platform typically operates on net 30 payment terms from the date of invoice. We also offer a 5% discount for annual payments made upfront, providing a cost-effective option for clients looking to secure their subscription for the year. Additionally, if your organization prefers quarterly billing, we can accommodate that as well, ensuring flexibility in managing your budget while still enjoying our full suite of analytics and automation features.",
+    "category": "Pricing & Commercial Terms",
+    "id": "QA-039",
+    "hash": "ed7c0e48"
+  },
+  {
+    "question": "What additional fees should we be aware of that may arise during the contract period?",
+    "answer": "At Acme Cloud Platform, we strive for transparency in our pricing. The only potential additional fees might include charges for exceeding data storage limits or API request thresholds if you are on a pay-as-you-go plan. We provide clear guidelines on these limits in our service agreement and will proactively notify you before any overage charges occur. Furthermore, all standard integrations and customer support are included in your subscription, ensuring there are no hidden costs as you scale your usage.",
+    "category": "Pricing & Commercial Terms",
+    "id": "QA-040",
+    "hash": "db801d74"
+  },
+  {
+    "question": "How do your pricing structures accommodate businesses that experience fluctuating usage levels throughout the year?",
+    "answer": "Our flexible pricing options at Acme Cloud Platform are designed to cater to businesses with fluctuating usage patterns. The pay-as-you-go model allows you to pay based on actual usage, which is ideal for organizations with seasonal demands. In addition, our subscription tiers can be scaled up or down easily, enabling you to adjust your plan based on your current needs without penalties. We also provide a usage dashboard that helps in forecasting usage trends, ensuring that you can plan your budget effectively.",
+    "category": "Pricing & Commercial Terms",
+    "id": "QA-041",
+    "hash": "72b3c3df"
+  },
+  {
+    "question": "Are there any long-term contracts or commitments required, and what are the options for contract renewal?",
+    "answer": "Acme Cloud Platform does not require long-term commitments, allowing flexibility in choosing subscription terms that fit your organization\u2019s needs. Our standard contract duration is one year, but we also offer options for shorter contracts and month-to-month subscriptions. Upon nearing the end of your contract, we will reach out to discuss renewal options, which may include loyalty discounts or updated service offerings based on your usage history. This approach ensures that you can adapt your services in response to changing business circumstances without being locked into a lengthy commitment.",
+    "category": "Pricing & Commercial Terms",
+    "id": "QA-042",
+    "hash": "d43d9685"
+  },
+  {
+    "question": "What are your standard response times for support tickets based on severity levels?",
+    "answer": "At Acme Cloud Platform, we prioritize support requests based on severity. For critical issues, we guarantee an initial response time of 1 hour. High-severity issues receive a response within 4 hours, while medium and low-severity issues are responded to within 1 business day and 3 business days, respectively. This ensures that your most pressing concerns are addressed promptly.",
+    "category": "Support & SLAs",
+    "id": "QA-043",
+    "hash": "87dbe6d5"
+  },
+  {
+    "question": "Can you describe your escalation paths for unresolved support tickets?",
+    "answer": "Acme Cloud Platform has a structured escalation process. If a support ticket remains unresolved after the initial response time, it escalates to a Tier 2 support engineer. If the issue is still unresolved after 24 hours, it escalates to a Dedicated Account Manager who will work closely with the technical team to expedite resolution. This multi-tiered approach ensures urgent issues are handled efficiently.",
+    "category": "Support & SLAs",
+    "id": "QA-044",
+    "hash": "8d1b5039"
+  },
+  {
+    "question": "Do you provide dedicated account management for enterprise clients, and what does that entail?",
+    "answer": "Yes, Acme Cloud Platform provides dedicated account management for all enterprise clients. Each account is assigned a dedicated Account Manager who serves as your primary point of contact. This role includes regular check-ins, proactive performance reviews, and personalized guidance on best practices to optimize your use of our platform. Your Account Manager is available for strategic planning sessions to align our solutions with your business goals.",
+    "category": "Support & SLAs",
+    "id": "QA-045",
+    "hash": "0a5927fb"
+  },
+  {
+    "question": "What uptime guarantees do you offer, and how do you ensure compliance with these metrics?",
+    "answer": "Acme Cloud Platform offers an industry-leading uptime guarantee of 99.95%. We achieve this through a combination of redundant infrastructure, real-time monitoring, and automated failovers. Our robust Service Level Agreement (SLA) outlines the compensation structure for any downtime experienced beyond our guarantee, ensuring that you are compensated if we fail to meet this commitment.",
+    "category": "Support & SLAs",
+    "id": "QA-046",
+    "hash": "2615507d"
+  },
+  {
+    "question": "What support channels do you provide, and how do they operate?",
+    "answer": "Acme Cloud Platform offers multiple support channels, including 24/7 phone support, live chat, and a comprehensive online support portal. Our online portal features a knowledge base, FAQs, and community forums. All channels allow for ticket submission and tracking, ensuring you have accessibility to support at any time, catering to different preferences for communication.",
+    "category": "Support & SLAs",
+    "id": "QA-047",
+    "hash": "5dc52d6c"
+  },
+  {
+    "question": "How do you measure customer satisfaction with your support services?",
+    "answer": "At Acme Cloud Platform, we measure customer satisfaction through regular surveys sent after support interactions, tracking Net Promoter Scores (NPS), and analyzing ticket resolution times. We review these metrics quarterly and implement changes based on feedback to continuously improve our support services. This commitment to quality helps us enhance the overall customer experience.",
+    "category": "Support & SLAs",
+    "id": "QA-048",
+    "hash": "0fc291d1"
+  },
+  {
+    "question": "Are there any support services available outside of standard business hours?",
+    "answer": "Yes, Acme Cloud Platform offers premium support services that extend outside standard business hours. This includes 24/7 access to our support team for critical issues as part of our Enterprise Support Package. Subscribers to this package receive prioritized handling and escalation at any time, ensuring that your operations remain uninterrupted around the clock.",
+    "category": "Support & SLAs",
+    "id": "QA-049",
+    "hash": "11aaad75"
+  },
+  {
+    "question": "What training and onboarding support do you provide for new clients?",
+    "answer": "Acme Cloud Platform provides comprehensive training and onboarding support for new clients. This includes an initial onboarding session, access to self-paced training modules, and live training workshops. Additionally, we offer a customized onboarding plan tailored to your specific needs, ensuring a smooth transition to our platform. Ongoing resources include webinars and a dedicated training portal.",
+    "category": "Support & SLAs",
+    "id": "QA-050",
+    "hash": "c7c5267c"
+  }
+]

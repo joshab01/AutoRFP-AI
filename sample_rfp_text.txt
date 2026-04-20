@@ -1,0 +1,30 @@
+REQUEST FOR PROPOSAL — Cloud Analytics Platform  
+Issued by: GlobalTech Enterprises  
+Response Deadline: [14 business days from receipt]  
+
+Introduction:  
+GlobalTech Enterprises is a leading provider of innovative technology solutions, dedicated to helping businesses optimize their operations through advanced analytics. We are seeking a cloud analytics platform vendor that can provide robust capabilities for data analysis, visualization, and reporting to support our data-driven decision-making processes.
+
+Questions:
+
+1. **Security**
+   1.1 What security protocols do you have in place to protect data stored in your cloud analytics platform?  
+   1.2 How do you ensure the security of data in transit between our systems and your platform?  
+   1.3 Can you provide details on your incident response plan and how you handle data breaches?
+
+2. **Technical Architecture**
+   2.1 Describe the architecture of your cloud analytics platform. How does it support scalability and performance?  
+   2.2 What integrations do you offer with existing data sources and third-party tools? Please provide examples.  
+   2.3 How does your platform handle real-time data processing and analytics?
+
+3. **Data Privacy**
+   3.1 What measures do you take to comply with global data privacy regulations (e.g., GDPR, CCPA)?  
+   3.2 How do you manage data ownership and access rights for our organization within your platform?
+
+4. **Implementation**
+   4.1 What is your typical timeline for implementing your cloud analytics platform from start to finish?  
+   4.2 What support and training do you provide during the implementation phase to ensure a smooth transition?
+
+5. **Pricing**
+   5.1 Can you outline your pricing model, including any tiered options based on usage or features?  
+   5.2 Are there additional costs for support, maintenance, or upgrades? Please provide a detailed breakdown.

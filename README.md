@@ -166,13 +166,17 @@ AutoRFP-AI/
 ## Sample Output
 
 ```
+======================================================================
 PIPELINE STATISTICS
+======================================================================
   Requirements answered:   12
-  Compliance pass rate:    10/12 (83%)
-  High-confidence (>=0.7): 9/12 (75%)
-  Flagged for review:      3/12
-  Average confidence:      0.78
-  Total time:              90s (7.5s per question)
+  Compliance pass rate:    6/12 (50%)
+  High-confidence (>=0.7): 12/12 (100%)
+  Flagged for review:      0/12
+  Average confidence:      0.90
+  Total time:              76.4s (6.4s per question)
+
+Pipeline complete!
 ```
 
 ---
